@@ -1,0 +1,111 @@
+body{
+    background: #330033;
+    overflow: hidden;   
+}
+
+.dinorunstyle1{
+    width: 46px;
+    height: 63px;
+    background-image: url(dino1_unicornio.png);
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+   
+}
+
+.dinorunstyle2{
+    width: 46px;
+    height: 63px;
+    background-image: url(dino2_unicornio.png);
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+}
+
+.dinojump{
+    width: 50px;
+    height: 67px;
+    background-image: url(dino3_unicornio.png);
+    position: absolute;
+    bottom: 0;
+    margin-left: 100px;
+}
+
+.rainbow{
+    position: absolute;
+    width: 40px;
+    height: 66px;
+    bottom: 0;
+    background-image: url(rainbow.png);
+}
+
+.bannergameover{
+    width: 150px;
+    height: 134px;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(heart.png);
+}
+
+.game-over{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+    font-family: cursive;
+}
+
+.scoreboard{
+    text-align: center;
+    vertical-align: text-top;
+    color: white;
+    margin-right: 50px;
+    font-family: cursive;
+}
+
+.results{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-family: cursive;
+}
+
+.presskeytocontinue{
+    text-align: center;
+    color: white;
+    margin-top: 110px;
+    font-family: cursive;
+}
+
+@keyframes slideright{
+    from{
+        background-position: 20000%;
+    }
+    to{
+        background-position: 0;
+    }
+}
+
+.background {
+    position: absolute;
+    bottom: 30px;
+    background-image: url(background.png);
+    background-repeat: repeat-x;
+    animation: slideright 2000s infinite linear;
+    width: 100%;
+    height: 500px;  
+}
+
+.footer{
+    bottom: 0;
+    font-family: cursive;
+    font-size: x-small;
+    text-align: center;
+    vertical-align: auto;    
+    color: #330033;
+    background-color: #B2DDF5;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+
+}
